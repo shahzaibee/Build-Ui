@@ -6,7 +6,7 @@ import { FaDribbble } from "react-icons/fa";
 const About = () => {
   return (
     <div>
-      <div className="h-[70vh] md:h-[80vh] w-full flex flex-col md:flex-row bg-[#f5f3ef] md:justify-between md:items-center">
+      <div className="h-[80vh] md:h-[80vh] w-full flex flex-col md:flex-row bg-[#f5f3ef] md:justify-between md:items-center">
         {/* left */}
         <div className="md:h-[60vh] md:border-l-4 border-black relative px-6 my-4 md:w-1/3 md:order-2 order-none md:px-14 md:py-[30px]">
           <h1 className="text-black text-3xl font-bold">(About Me)</h1>

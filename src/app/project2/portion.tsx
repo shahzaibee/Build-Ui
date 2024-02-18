@@ -41,7 +41,7 @@ const Portion = () => {
             priority
             width={800}
             height={800}
-            className="w-[550px] h-[350px] object-cover object-center rounded-md mt-5 md:mt-0"
+            className="w-[550px] h-[400px] md:h-0 object-cover object-center rounded-md mt-5 md:mt-0"
           />
           <div>
             <div className="flex justify-between items-center gap-8 md:gap-0 md:px-4 mt-5">

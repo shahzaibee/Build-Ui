@@ -46,12 +46,6 @@ const Navbar = () => {
             </SheetContent>
           </Sheet>
         </div>
-        <Link
-          href="/project2"
-          className="ml-6 md:hidden absolute top-[15vh] border-2 border-black px-4 py-2 rounded-2xl bg-black text-white font bold tracking-tight"
-        >
-          Project2
-        </Link>{" "}
       </div>
 
       <div className="text-2xl font-extrabold">DENTYTECH</div>
@@ -64,9 +58,6 @@ const Navbar = () => {
         </button>
       </div>
       {/* Mobile */}
-      <div className="md:hidden block">
-        <CiMenuBurger className="text-5xl p-2" />
-      </div>
     </div>
   );
 };

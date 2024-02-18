@@ -6,7 +6,7 @@ import { CiFacebook } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div className="px-6 mt-2 md:mt-7 flex flex-col gap-5 md:flex-row justify-between items-center ">
+    <div className="px-6 mt-2 md:mt-7 flex flex-col gap-5 md:flex-row justify-between items-center overflow-x-hidden ">
       <h1>Your Smile, Our Passion </h1>
       <div className="border-2 border-black p-6 rounded-full ">
         <FaArrowDown />
