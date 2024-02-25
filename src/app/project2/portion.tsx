@@ -9,7 +9,7 @@ import RightImage from "../../../public/assets/diaomod.avif";
 
 const Portion = () => {
   return (
-    <div className="md:h-[130vh] h-[150vh]  w-full mt-5">
+    <div className="md:h-[130vh] h-[200vh]  w-full mt-5">
       <div className="h-12 flex justify-between items-center px-14 py-8 ">
         <h1 className="text-2xl     font-bold">Case studies</h1>
         <div className="flex justify-center font-bold items-center gap-8">
@@ -17,7 +17,7 @@ const Portion = () => {
           <p className="text-2xl ">01</p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-14 mt-10">
+      <div className="flex flex-col md:flex-row justify-between gap-20 md:gap-0 items-center px-4 md:px-14 mt-10">
         <div className="">
           <Image
             src={pic1}
